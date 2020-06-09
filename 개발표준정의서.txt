@@ -1,0 +1,28 @@
+디렉토리
+
+
+데이터 디렉토리: /sports
+데이터 디렉토리 야구 : /sports/baseball
+데이터 디렉토리 농구 : /sports/basketball
+데이터 디렉토리 축구 : /sports/football
+데이터 디렉토리 배구 : /sports/volleyball
+데이터 디렉토리 골프 : /sports/golf
+
+
+파일 명명 규칙
+
+프로그램 소스 파일
+    데이터 수집 파일 명 : crawling.ipynb
+    데이터 전처리 파일 명 : preprocessing.py
+    분류 모델 파일명 : model_softmax.py 
+    분류 학습 파일명 : train_model.py
+    분류 예측 파일명 : news_classifier.ipynb
+   
+
+
+도메인명
+   야구: baseball
+   축구: football
+   농구: basketball
+   골프: golf
+   배구: volleyball
