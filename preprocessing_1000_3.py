@@ -65,7 +65,11 @@ def preprocessing():
     tokenizer = Tokenizer(num_words = 1000)
     tokenizer.fit_on_texts(nouns)
     word_index = tokenizer.word_index
+
+    # 문자열을 정수 인덱스의 리스트로 변환
     sequences = tokenizer.texts_to_sequences(list_all_news)
+
+    # 원-핫 이진 벡터 표현
     one_hot_results = tokenizer.texts_to_matrix(list_all_news,mode='binary')
     X_train = one_hot_results
     
